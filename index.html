@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -23,74 +23,83 @@
     <base href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
     -->
     <!--Base para todas las direcciones links Mejor evitar esta etiqueta-->
+    <script src="/logica/script.js"></script>
     <title>HTML 5</title>
 </head>
+<!-------------------------------------------------------------------------------------------------------------------------------->
 
 <body style="width: 90%; margin: auto; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-    <main>
-        <header>
-            <div class="header-content">
-                <h1>ROMA</h1>
-                <nav>
-                    <ul>
-                        <li><a href="">Inicio</a> </li>
-                        <li><a href="">Historia de Roma</a> </li>
-                        <li><a href="">Sobre mi</a></li>
-                        <li><a href="">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <main class="main-01">
+        <header class="header-div">
+            <h1>ROMA</h1>
+            <nav class="nav-principal" aria-label="Navegación principal">
+                <!--aria-label es utilizado por tecnologías de asistencia, como los lectores de pantalla, para darle contexto y significado a un elemento.-->
+                <ul class="nav-menu">
+                    <li><a href="" class="activo">Inicio</a> </li>
+                    <!--la clase "activo" es una convención muy común para indicar qué elemento del menú o lista está actualmente seleccionado o en uso. "activo" es corto y entendible, pero podrías usar "is-active" o "current" si sigues metodologías como BEM.-->
+                    <li><a href="">Historia de Roma</a> </li>
+                    <li><a href="/about-me.html">Sobre mi</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
         </header>
-        <section>
-            <div><a href="#intro">Ir a introducción</a></div>
+
+        <section class="seccion-01">
+
             <div class="texto-intro">
                 <header id="intro">
                     <h2>ROMA</h2>
-                    <h3>Roma: Donde la historia cobra vida. <h3>
+                    <h3>Roma: Donde la historia cobra vida. </h3>
 
-                            <p>
-                                <br>"Roma, la Ciudad Eterna, se alza como un eterno testimonio de grandeza, arte e
-                                historia.
-                                <br>
-                                Cuna de una de las civilizaciones más influyentes que el mundo haya conocido, sus ruinas
-                                majestuosas, sus imponentes monumentos y sus plazas rebosantes de vida narran milenios
-                                de triunfos, mitos y transformaciones. Desde la poderosa huella del Imperio Romano, cuyo
-                                legado perdura en el derecho, la arquitectura y la cultura occidental, hasta su
-                                renacimiento
-                                como corazón del mundo cristiano y capital de la Italia moderna, Roma invita al viajero
-                                a
-                                perderse por sus calles empedradas y descubrir, en cada rincón, la profunda belleza de
-                                un pasado que sigue vivo y palpitante. Bienvenidos a un viaje inolvidable por la capital
-                                del
-                                mundo."
-                            </p>
-                            <hr>
-                            <p>
-                                "Pasear por Roma es asistir a una lección de historia al aire libre. Imagine caminar por
-                                el
-                                mismo Foro Romano donde Cicerón arengaba a las multitudes, levantar la vista hacia la
-                                cúpula
-                                del Panteón —una proeza arquitectónica milenaria— o dejarse envolver por la
-                                espiritualidad
-                                de la Capilla Sixtina. Es una ciudad donde lo divino y lo terrenal se entrelazan:
-                                iglesias
-                                barrocas guardan obras de arte incalculables, fuentes monumentales como la de Trevi
-                                narran
-                                leyendas de deseos por cumplir, y el aroma del café espresso y la pasta recién hecha
-                                emana
-                                de los acogedores trattorias en cada plaza. Más que un destino, Roma es una experiencia
-                                sensorial total, una invitación a perderse en el tiempo y saborear la dolce vita.
-                                Descubre
-                                con nosotros los secretos, los monumentos imperdibles y la magia indeleble de la capital
-                                italiana."
-                            </p>
+                    <p>
+                        <br>"Roma, <b>la Ciudad Eterna</b>, <strong>se alza como un eterno testimonio de grandeza, arte
+                            e
+                            historia</strong>.
+                        <br>
+                        Cuna de una de las civilizaciones más <i>influyentes</i> que el mundo haya conocido, sus ruinas
+                        majestuosas, sus imponentes monumentos y sus plazas rebosantes de vida narran milenios
+                        de triunfos, mitos y transformaciones. Desde la poderosa huella del Imperio Romano, cuyo
+                        legado perdura en el derecho, la arquitectura y la cultura occidental, hasta su
+                        renacimiento
+                        como corazón del mundo cristiano y capital de la Italia moderna, Roma invita al viajero
+                        a
+                        perderse por sus calles empedradas y descubrir, en cada rincón, la profunda belleza de
+                        un pasado que sigue vivo y palpitante. Bienvenidos a un viaje inolvidable por la capital
+                        del
+                        mundo."
+                    </p>
+                    <hr>
+                    <p>
+                        "Pasear por Roma es asistir a una lección de historia al aire libre. Imagine caminar por
+                        el
+                        mismo Foro Romano donde Cicerón arengaba a las multitudes, levantar la vista hacia la
+                        cúpula
+                        del Panteón —una proeza arquitectónica milenaria— o dejarse envolver por la
+                        espiritualidad
+                        de la Capilla Sixtina. Es una ciudad donde lo divino y lo terrenal se entrelazan:
+                        iglesias
+                        barrocas guardan obras de arte incalculables, fuentes monumentales como la de Trevi
+                        narran
+                        leyendas de deseos por cumplir, y el aroma del café espresso y la pasta recién hecha
+                        emana
+                        de los acogedores trattorias en cada plaza. Más que un destino, Roma es una experiencia
+                        sensorial total, una invitación a perderse en el tiempo y saborear la dolce vita.
+                        Descubre
+                        con nosotros los secretos, los monumentos imperdibles y la magia indeleble de la capital
+                        italiana."
+                    </p>
                 </header>
             </div>
             <p>
                 <a href="/Guides/Content_categories">link</a><!--Ejemplo de utilización de la etiqueta base-->
             </p>
-
+            <div class="footer-seccion-01">
+                <footer id="footer01-seccion-01">
+                    <a href="#intro">Ir a introducción</a>
+                </footer>
+            </div>
         </section>
+
         <section>
             <div>
                 <img src="img/coliseo-roma_2924b6ae_1280x720.jpg" alt="coliseo romano" width="500" height="500">
@@ -98,7 +107,8 @@
         </section>
     </main>
 
-    <footer>&copy; 2025</footer>
+    <footer id="footer-final-body">&copy; 2025</footer>
 </body>
+<!-------------------------------------------------------------------------------------------------------------------------------->
 
 </html>

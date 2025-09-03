@@ -1,6 +1,6 @@
 <div>
   <header>
-<h3>Este repositorio contiene un proyecto creado con el propósito de <b>practicar y afianzar</b> los fundamentos de HTML.</h3>
+<h3>Este repositorio contiene un proyecto creado con el propósito de <i>practicar y afianzar</i> los fundamentos de HTML.</h3>
   </header>
 <hr>
 <p>El objetivo principal es familiarizarse con las etiquetas más importantes y su estructura, así como comprender la diferencia entre elementos a nivel de bloque y en línea.

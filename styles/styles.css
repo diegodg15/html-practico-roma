@@ -1,0 +1,8 @@
+*{
+    --colorFondo:#E2E8F0;
+}
+
+body{
+    background-color: var(--colorFondo);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

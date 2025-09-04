@@ -1,8 +1,46 @@
-*{
-    --colorFondo:#E2E8F0;
+:root {
+    /*Definición de variables:*/
+    /* Tipografía */
+    --fuente-base: 'Verdana', sans-serif;
+    --fuente-titulos: 'Georgia', serif;
+
+    /* Colores */
+    /*Ver paleta de colores de material design*/
+    --color-primario: #ff9800;
+    --color-secundario: #333;
+    --color-fondo: #f9f9f9;
+
+    /* Espaciados */
+    --espaciado-pequeno: 0.5rem;
+    --espaciado-mediano: 1rem;
+    --espaciado-grande: 2rem;
+
+    /* Bordes */
+    --radio-borde: 8px;
 }
 
-body{
-    background-color: var(--colorFondo);
+/*Diferencia entre :root y *
+:root
+Qué es: un selector de pseudo-clase que apunta al elemento raíz del documento.
+En HTML, :root es equivalente a html.
+Uso típico: definir variables CSS globales (Custom Properties) que luego puedes reutilizar en todo el documento.
+Especificidad: tiene más peso que html en la cascada de estilos.
+//-------------------------------------------------------------------------------------
+*:
+(selector universal)
+Qué es: un selector que apunta a todos los elementos del documento.
+Uso típico: aplicar estilos globales o hacer “reset” de márgenes, paddings, etc.
+Especificidad: muy baja (0,0,0,0).
+*/
+
+* {
+    /*Definición de variables css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-primario);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -118,7 +118,7 @@ while (i < 10) {
 
 {
     {
-        function factorial(n) {                     
+        function factorial(n) {
             if (n === 0 || n === 1) {
                 return 1;
             } else {
@@ -173,4 +173,21 @@ while (i < 10) {
 
     saludar("Diego", despedida);
 
+}
+{
+    //Cambio de valores variable:
+    //sin variable auxiliar
+    let a = 1;
+    let b = 2;
+    [a, b] = [b, a];
+    console.log(a, b);
+
+    //con variable auxiliar
+    let a1 = 1;
+    let b1 = 2;
+    let aux;
+    aux = a1;
+    a1 = b1;
+    b1 = aux;
+    console.log(a1, b1);
 }

@@ -166,15 +166,17 @@ tal como lo escribí.
         <!--Tablas:-->
         <table>
             <tr>
-                <td>Row 1, Column 1</td>
-                <td>Row 1, Column 2</td>
+                <td>Row(fila) 1, Column 1</td>
+                <td>Row(fila) 1, Column 2</td>
             </tr>
             <tr>
-                <td>Row 2, Column 1</td>
-                <td>Row 2, Column 2</td>
+                <td>Row(fila) 2, Column 1</td>
+                <td>Row(fila) 2, Column 2</td>
             </tr>
         </table>
         <hr>
+        <!------------------------------------------------------------------------------------------>
+        <!--Tablas con encabezado:-->
         <table>
             <tr>
                 <th>Service</th>
@@ -197,6 +199,116 @@ tal como lo escribí.
                 <td>$150</td>
             </tr>
         </table>
+        <hr>
+        <!------------------------------------------------------------------------------------------>
+        <!--Fusionar celdas:-->
+        <table>
+            <tr>
+                <th rowspan="2">Product</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>Old</th>
+                <th>New</th>
+            </tr>
+            <tr>
+                <td>Product 1</td>
+                <td>$10.00</td>
+                <td>$12.00</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>$15.00</td>
+                <td>$18.00</td>
+            </tr>
+        </table>
+        <hr>
+        <!------------------------------------------------------------------------------------------>
+        <table style="border-collapse: collapse; width: 50%;">
+            <tr>
+                <th rowspan="2" style="border: 1px solid black; padding: 5px;">Product</th>
+                <th colspan="2" style="border: 1px solid black; padding: 5px;">Price</th>
+            </tr>
+            <tr>
+                <th style="border: 1px solid black; padding: 5px;">Old</th>
+                <th style="border: 1px solid black; padding: 5px;">New</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 5px;">Product 1</td>
+                <td style="border: 1px solid black; padding: 5px;">$10.00</td>
+                <td style="border: 1px solid black; padding: 5px;">$12.00</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 5px;">Product 2</td>
+                <td style="border: 1px solid black; padding: 5px;">$15.00</td>
+                <td style="border: 1px solid black; padding: 5px;">$18.00</td>
+            </tr>
+        </table>
+        <hr>
+        <table style="border: 1px solid black; padding: 5px;">
+            <caption  style="border: 1px solid black; padding: 5px;">Product Prices</caption>
+            <tr>
+                <th  style="border: 1px solid black; padding: 5px;">Product</th>
+                <th style="border: 1px solid black; padding: 5px;">Price</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 5px;">Product 1</td>
+                <td style="border: 1px solid black; padding: 5px;">$10.00</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 5px;">Product 2</td>
+                <td style="border: 1px solid black; padding: 5px;">$15.00</td>
+            </tr>
+        </table>
+        <hr>
+        <table border="1" cellspacing="10" cellpadding="5" width="80%" height="200" align="center" bgcolor="#f2f2f2">
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Product 1</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>$15.00</td>
+            </tr>
+        </table>
+        <hr>
+        <!--------------------------------------------------------------------------------------------------------->
+        <table style="border: 1px solid black; padding: 5px;">
+            <caption style="border: 1px solid black; padding: 5px;">Monthly Sales</caption>
+            <thead style="border: 1px solid black; padding: 5px;">
+                <tr style="border: 1px solid black; padding: 5px;">
+                    <th style="border: 1px solid black; padding: 5px;">Month</th>
+                    <th style="border: 1px solid black; padding: 5px;">Sales</th>
+                </tr>
+            </thead>
+            <tbody style="border: 1px solid black; padding: 5px;">
+                <tr style="border: 1px solid black; padding: 5px;">
+                    <td style="border: 1px solid black; padding: 5px;">January</td>
+                    <td style="border: 1px solid black; padding: 5px;">$10,000</td>
+                </tr>
+                <tr style="border: 1px solid black; padding: 5px;">
+                    <td style="border: 1px solid black; padding: 5px;">February</td>
+                    <td style="border: 1px solid black; padding: 5px;">$12,000</td>
+                </tr>
+                <tr style="border: 1px solid black; padding: 5px;">
+                    <td style="border: 1px solid black; padding: 5px;">March</td>
+                    <td style="border: 1px solid black; padding: 5px;">$15,000</td>
+                </tr>
+            </tbody>
+            <tfoot style="border: 1px solid black; padding: 5px;">
+                <tr>
+                    <td style="border: 1px solid black; padding: 5px;">Total</td>
+                    <td style="border: 1px solid black; padding: 5px;">$37,000</td>
+                </tr>
+            </tfoot>
+            <summary style="border: 1px solid black; padding: 5px;">This table shows the monthly sales figures for the first quarter of the year.</summary>
+        </table>
+
+
 
 </body>
 

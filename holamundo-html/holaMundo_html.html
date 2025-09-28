@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.png" href="./img/68325.png">
+    <title>Curso Html</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>audifono</td>
+                <td>gratis</td>
+            </tr>
+            <tr>
+                <td>pc</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>refrigerador</td>
+                <td>40000$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>total $12334</td>
+        </tfoot>
+    </table>
+
+
+
+
+    <ul>
+        <p>Lista desordenada</p>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <ol>
+        <p>Lista ordenada</p>
+        <li value="50">Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <h1>Texto h1</h1>
+    <h2>texto h2</h2>
+    <h3>texto subtítulo</h3>
+    <h4>texto subtítulo</h4>
+    <h5>texto subtítulo</h5>
+    <h6>texto subtítulo</h6>
+    <p>primer párrafo</p>
+    <p>segundo párrafo</p>
+    <hr>
+    <h2>titulo dos</h2>
+    <p>párrafo nuevo</p>
+    <p>
+        Este texto es <span style="color:rgb(21, 199, 199)"></span>mucho más largo y es para mostrar<br> <br>la etiqueta
+        span.
+    </p>
+    <!--comentario html-->
+
+    <a target="balnk" href="https://www.w3schools.com/">Documentación html</a>
+    <img src="./img/descarga.jpg" width="400 px" alt="imagen coliseo romano" />
+
+    <form action="/formulario" method="post"><!--aquí va l ainformación y método para enviar los datos-->
+        <label for="nombre">Nombre</label>
+        <input value="diego" type="text" id="nombre" name="nombre" placeholder="ingrese nombre">
+        <br>
+        <label for="correo">Correo</label>
+        <input value="valor por defecto" type="email" id="correo" name="correo" placeholder="ingrese correo">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" placeholder="ingrese comentario" rows="10"
+            cols="50">este es un valor por defecto</textarea>
+        <br>
+        <!--<input type="submit">-->
+        <button type="button"><img src="./img/descarga.jpg" alt=""> Enviar</button>
+        <button type="submit">Enviar 2</button>
+        <button type="reset">Limpiar formulario</button>
+        <button type="submit">Submit</button>
+        <hr>
+
+
+
+    </form>
+
+</body>
+
+</html>

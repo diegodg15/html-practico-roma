@@ -191,3 +191,8 @@ while (i < 10) {
     b1 = aux;
     console.log(a1, b1);
 }
+
+{
+    let texto = "  hola";
+    console.log(texto.trimStart())
+}
